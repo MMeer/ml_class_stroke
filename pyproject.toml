@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "heart_stroke_prediction"
+version = "0.0.1"
+description = "What demographic and health-related factors significantly predict the occurrence of a stroke in patients?"
+authors = [
+  { name = "Meer,Amir,Kevin,Marcus,Lakshmi" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.isort]
+profile = "black"
+known_first_party = ["heart_stroke_prediction"]
+force_sort_within_sections = true
+
+
