@@ -1,10 +1,10 @@
 # Data
-/data/
+# /data/
 
 # Missc
 .vscode/
 *.zip
-*.csv
+# *.csv
 *.log
 **/__pycache__/
 
