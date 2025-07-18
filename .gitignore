@@ -1,6 +1,16 @@
 # Data
 /data/
 
+# Missc
+.vscode/
+*.zip
+*.csv
+*.log
+**/__pycache__/
+
+
+
+
 # Mac OS-specific storage files
 .DS_Store
 
