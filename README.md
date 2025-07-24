@@ -64,7 +64,7 @@ Risk Multipliers (Example):
 - **Smoking Status**: Some records marked as "Unknown"
 
 ### Class Imbalance
-- 
+- **stroke**: The dataset is highly imbalanced. Out of 5,110 patients, only 249 have experienced a stroke (~5%).
 
 ### Data Preprocessing Requirements
 1. **Categorical Encoding**: Convert categorical variables to numerical
