@@ -4,5 +4,6 @@ isort
 mkdocs
 pip
 pytest
+"fastapi[standard]"
 python-dotenv
 -e .
