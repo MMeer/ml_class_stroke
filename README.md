@@ -176,7 +176,6 @@ For questions about implementation or model development, contact:
 - Lakshmi : [email] 
 - Markus :[email]
 - Meer : [email]
-- Manny : : [email]
 
 ---
 
