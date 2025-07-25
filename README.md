@@ -134,6 +134,8 @@ Risk Multipliers (Example):
 
 - uvicorn main:app -reload
 
+### go to localhost:8000/docs for Swagger/OpenAPI endpoints
+
 ### Production Deployment
 
 - **Real-time Scoring**: API for premium calculation
