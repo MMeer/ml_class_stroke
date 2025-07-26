@@ -88,7 +88,7 @@ Risk Multipliers (Example):
 - Correlation analysis between features
 - Distribution analysis of stroke cases by demographic groups
 - Risk factor prevalence analysis
-- correlation analysis between pre-menopausal and post menopuasal women and stroke risk
+![alt text](image-1.png)
 
 ### 2. Feature Engineering
 
@@ -97,19 +97,57 @@ Risk Multipliers (Example):
 - Glucose level categories (Normal, Pre-diabetic, Diabetic)
 - Composite risk scores
 
+
+
 ### 3. Model Selection
 
 - **Logistic Regression**: Interpretable baseline model
+
+
+![alt text](image-3.png)
+
+
 - **Random Forest**: Handle non-linear relationships
-- **XGBoost**: High performance with feature importance
-- **Neural Networks**: Complex pattern recognition
+
+
+![alt text](image-2.png)
+
 
 ### 4. Evaluation Metrics
 
 - **Precision**: Minimize false positives (over-charging low-risk customers)
 - **Recall**: Identify high-risk individuals (avoid under-charging)
 - **F1-Score**: Balance between precision and recall
--
+
+=== Random Forest (Threshold = 0.07) ===
+[[700 272]
+ [ 11  39]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.72      0.83       972
+           1       0.13      0.78      0.22        50
+
+    accuracy                           0.72      1022
+   macro avg       0.55      0.75      0.52      1022
+weighted avg       0.94      0.72      0.80      1022
+
+ROC AUC Score: 0.7762
+
+=== Logistic Regression (Threshold = 0.59) ===
+[[781 191]
+ [ 11  39]]
+              precision    recall  f1-score   support
+
+           0       0.99      0.80      0.89       972
+           1       0.17      0.78      0.28        50
+
+    accuracy                           0.80      1022
+   macro avg       0.58      0.79      0.58      1022
+weighted avg       0.95      0.80      0.86      1022
+
+ROC AUC Score: 0.8357
+
+![alt text](image-4.png)
 
 ## Implementation Guidelines
 
@@ -201,12 +239,15 @@ Risk Multipliers (Example):
 
 For questions about implementation or model development, contact:
 
-- Amir : [email]
+- Amir : amirbagheri100@gmail.com
 - Kevin : nageswarkv@gmail.com
-- Lakshmi : [email]
-- Markus :[email]
-- Meer : [email]
+- Lakshmi : lakshrk@gmail.com
+- Markus : markusjduncan@gmail.com
+- Meer : binbash.101@gmail.com
 
 ---
 
 **Disclaimer**: This dataset and models are for educational and research purposes. Always consult with legal and regulatory experts before implementing risk assessment models in production insurance systems.
+
+
+[def]: image.png
