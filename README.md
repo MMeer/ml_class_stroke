@@ -242,7 +242,7 @@ For questions about implementation or model development, contact:
 - Amir : amirbagheri100@gmail.com
 - Kevin : nageswarkv@gmail.com
 - Lakshmi : lakshrk@gmail.com
-- Markus : markusjduncan@gmail.com
+- Markus : markusjduncan(at)gmail.com - Reflection video: https://www.youtube.com/watch?v=Qw8HB2CCv5A
 - Meer : binbash.101@gmail.com
 
 ---
